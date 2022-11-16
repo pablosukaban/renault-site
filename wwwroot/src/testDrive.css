@@ -1,0 +1,98 @@
+.button {
+    text-transform: lowercase;
+    padding: 10px 13px;
+    cursor: pointer;
+    width: 223px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    transition: all 200ms ease;
+}
+
+.button:hover {
+    background-color: gold;
+    color: black;
+}
+
+.sec-button-container {
+    margin-top: 10px;
+}
+
+.reverse-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.reverse-button:hover {
+    background-color: black;
+    color: white;
+}
+
+/*=============================================*/
+
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-flex {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-flex h1 {
+    font-size: 28px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    gap: 1.4rem;
+    margin-top: 1.4rem;
+
+    width: 450px;
+}
+
+.form label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form input {
+    width: 100%;
+
+    padding: 5px 10px;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+}
+
+.subform {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.subform input {
+    flex-basis: 10%;
+}
+
+.subform label {
+    flex-grow: 1;
+}
+
+.form-para {
+    font-size: 12px;
+    color: gray;
+}
