@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ozkSy3jm6sfaH+eYqpwOfdi5ivdv5diCMSOx/qfFD3s=",
+  "Hash": "QgDcnHPQI1/tAjbsXqfdoyJEH4vRNlY3IjpW8ZUFHjw=",
   "Source": "web",
   "BasePath": "_content/web",
   "Mode": "Default",
@@ -459,6 +459,23 @@
       "OriginalItemSpec": "wwwroot\\contactDiller.html"
     },
     {
+      "Identity": "E:\\sinkh\\web\\lr8\\wwwroot\\dbData.html",
+      "SourceId": "web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\sinkh\\web\\lr8\\wwwroot\\",
+      "BasePath": "_content/web",
+      "RelativePath": "dbData.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dbData.html"
+    },
+    {
       "Identity": "E:\\sinkh\\web\\lr8\\wwwroot\\index.html",
       "SourceId": "web",
       "SourceType": "Discovered",
@@ -593,6 +610,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\src\\contactDiller.css"
+    },
+    {
+      "Identity": "E:\\sinkh\\web\\lr8\\wwwroot\\src\\dbData.css",
+      "SourceId": "web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\sinkh\\web\\lr8\\wwwroot\\",
+      "BasePath": "_content/web",
+      "RelativePath": "src/dbData.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\src\\dbData.css"
     },
     {
       "Identity": "E:\\sinkh\\web\\lr8\\wwwroot\\src\\index.css",

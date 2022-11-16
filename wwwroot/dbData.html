@@ -7,9 +7,8 @@
             content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
         />
         <link rel="stylesheet" href="./src/normalize.css" />
-        <link rel="stylesheet" href="./src/testDrive.css" />
+        <link rel="stylesheet" href="./src/dbData.css" />
         <link rel="stylesheet" href="./src/main.css" />
-        <script src="./testDriveForm.js"></script>
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Renault</title>
     </head>
@@ -50,103 +49,7 @@
                 </div>
             </header>
             <main class="main-wrapper">
-                <div class="main-flex">
-                    <h1>Записаться на тест-драйв</h1>
-                    <form
-                        class="form"
-                        onsubmit="return onSubmit()"
-                        action="/home/submitform"
-                        method="post"
-                    >
-                        <div>
-                            <label for="model">Модель* (от 1 до 10)</label>
-                            <input
-                                type="number"
-                                id="model"
-                                min="1"
-                                max="10"
-                                required
-                                value="2"
-                                name="Model"
-                            />
-                            <label for="saloon"
-                                >Автосалон* ('г. Москва' или 'г.
-                                Санкт-Петербург')</label
-                            >
-                            <input
-                                type="text"
-                                id="saloon"
-                                required
-                                placeholder="Город"
-                                value="г. Москва"
-                                name="Saloon"
-                            />
-                            <label for="date"
-                                >Дата* (запись открыта с 1-го декабря 2022 года
-                                по декпбрь 2023 года)</label
-                            >
-                            <input
-                                type="date"
-                                id="date"
-                                min="2022-12-01"
-                                max="2023-12-01"
-                                value="2022-12-01"
-                                required
-                                name="MyDate"
-                            />
-                            <label for="surname">Фамилия*</label>
-                            <input
-                                type="text"
-                                id="surname"
-                                required
-                                pattern="^[А-ЯЁ][а-яё]+$"
-                                placeholder="Фамилия"
-                                value="Фамилия"
-                                name="Surname"
-                            />
-                            <label for="name">Имя*</label>
-                            <input
-                                type="text"
-                                id="name"
-                                required
-                                pattern="^[А-ЯЁ][а-яё]+$"
-                                placeholder="Имя"
-                                value="Имя"
-                                name="Name"
-                            />
-                            <label for="email">Почта*</label>
-                            <input
-                                type="email"
-                                id="email"
-                                required
-                                placeholder="test@mail.ru"
-                                value="test@mail.ru"
-                                name="Email"
-                            />
-                            <label for="phone">Телефон* (10 символов)</label>
-                            <input
-                                type="tel"
-                                id="phone"
-                                required
-                                placeholder="+79999999999"
-                                value="+79122444401"
-                                name="PhoneNumber"
-                            />
-                        </div>
-                        <div class="subform">
-                            <input type="checkbox" id="checkb" required />
-                            <label for="checkb"
-                                >Согласие на обработку персональных
-                                данных</label
-                            >
-                        </div>
-                        <button class="button form-bnt">Отправить</button>
-                        <p class="form-para">* Обязательное поле</p>
-                        <a href="dbData.html" class="db-link"
-                            >Посмотреть все записи на Test Drive</a
-                        >
-                    </form>
-                </div>
+                <h1>data</h1>
             </main>
             <footer class="footer-container">
                 <div class="footer-flex">
