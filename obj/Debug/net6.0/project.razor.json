@@ -16298,6 +16298,11 @@
   "RootNamespace": "web",
   "Documents": [
     {
+      "FilePath": "e:\\sinkh\\web\\lr8\\Views\\Home\\showDb.cshtml",
+      "TargetPath": "Views\\Home\\showDb.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\sinkh\\web\\lr8\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
