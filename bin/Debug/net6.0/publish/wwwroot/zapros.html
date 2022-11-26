@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <link rel="stylesheet" href="./src/normalize.css" />
+        <link rel="stylesheet" href="./src/zapros.css" />
+        <link rel="stylesheet" href="./src/main.css" />
+        <script src="./zaprosForm.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Renault</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header-wrapper">
+                <div class="flex-container">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img
+                                src="assets/logo.svg"
+                                class="logo"
+                                alt="renault logo"
+                            />
+                        </a>
+                    </div>
+                    <div class="header-content">
+                        <div class="header-title">
+                            <h1>Лаки моторс</h1>
+                            <p>Официальный диллер Renault</p>
+                        </div>
+                        <div class="flex-navbar">
+                            <nav class="nav-menu">
+                                <a href="models.html">Модельный ряд</a>
+                                <a href="zapChasti.html">Запасные части</a>
+                                <a href="techSupport.html">Техобслуживание</a>
+                                <a href="kredit.html">Кредит</a>
+                            </nav>
+                            <div class="sub-menu">
+                                <div>
+                                    <a href="./testDrive.html">
+                                        <span>Пройти тест-<br />драйв</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main-wrapper">
+                <div class="main-flex">
+                    <h1>
+                        Отправить запрос на запчасти и<br />
+                        аксессуары
+                    </h1>
+                    <form class="form">
+                        <div>
+                            <label for="theme">Тема обращения*</label>
+                            <input type="text" id="theme" />
+                            <div class="comment-container">
+                                <label for="comment">Комментарий*</label>
+                                <textarea id="comment"></textarea>
+                            </div>
+                            <label for="model">Модель*</label>
+                            <input type="text" id="model" />
+                            <label for="probeg">Пробег*</label>
+                            <input type="number" id="probeg" />
+                            <label for="birthdate">Год выпуска*</label>
+                            <input
+                                type="number"
+                                min="1900"
+                                max="2099"
+                                step="1"
+                                id="birthdate"
+                            />
+                            <label for="surname">Фамилия*</label>
+                            <input type="text" id="surname" />
+                            <label for="name">Имя*</label>
+                            <input type="text" id="name" />
+                            <label for="email">Почта*</label>
+                            <input type="email" id="email" />
+                            <label for="phone">Телефон*</label>
+                            <input type="tel" id="phone" />
+                        </div>
+                        <div class="subform">
+                            <input type="checkbox" id="checkb" />
+                            <label for="checkb"
+                                >Согласие на обработку персональных
+                                данных</label
+                            >
+                        </div>
+                        <button class="button form-bnt">Отправить</button>
+                        <p class="form-para">* Обязательное поле</p>
+                    </form>
+                </div>
+            </main>
+            <footer class="footer-container">
+                <div class="footer-flex">
+                    <div class="footer-info">
+                        <div class="footer-logo">
+                            <img
+                                src="assets/footer-logo.png"
+                                alt="footer logo"
+                            />
+                        </div>
+                        <div class="footer-phone">
+                            <p>+7 (343) 228-38-22</p>
+                            <p>+7 (343) 272-27-27</p>
+                            <p>+7 (34385) 60-888</p>
+                        </div>
+                        <div class="footer-adress">
+                            <p>г. Екатеринбург, ул. Бебеля, 115</p>
+                            <p>г. Екатеринбург, ул. Селькоровская, 78Б</p>
+                            <p>г. Серов, ул. Каквинская, 29</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="footer-social">
+                            <a class="footer-call" href="tel:73432283822">
+                                <img
+                                    src="assets/phone-svgrepo-com.svg"
+                                    class="footer-call-icon"
+                                    alt="phone"
+                                />
+                            </a>
+                            <a target="_blank" href="https://vk.com">
+                                <img
+                                    class="footer-img"
+                                    src="assets/vk.svg"
+                                    alt="vk"
+                                />
+                            </a>
+                            <a target="_blank" href="https://ok.ru">
+                                <img
+                                    class="footer-img"
+                                    src="assets/ok.svg"
+                                    alt="ok"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copy">
+                    <div class="footer-links">
+                        <a href="./contactDiller.html">Обратная связь</a>
+                        <a href="news.html">Новости</a>
+                        <a href="lawInfo.html">Юридическая информация</a>
+                    </div>
+                    <div class="footer-second">
+                        <span>© Renault 2017 - 2022</span>
+                        <span>© Лаки Моторс 2022</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

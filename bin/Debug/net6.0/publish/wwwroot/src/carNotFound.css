@@ -1,0 +1,41 @@
+.main-wrapper {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+    cursor: default;
+}
+
+.main-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.main-link {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.main-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: gold;
+
+    transition: width 300ms ease-in-out;
+}
+
+.main-link:hover::after {
+    width: 100%;
+}

@@ -1,0 +1,109 @@
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cars-container {
+    padding-top: 8rem;
+}
+
+.cars-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.flex-cars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.car-cart img {
+    filter: grayscale(1);
+    transition: all 300ms ease-in-out;
+}
+
+.car-cart img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.car-info > h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.button {
+    text-transform: lowercase;
+    padding: 10px 13px;
+    cursor: pointer;
+    width: 223px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    transition: all 200ms ease;
+}
+
+.button:hover {
+    background-color: gold;
+    color: black;
+}
+
+.sec-button-container {
+    margin-top: 10px;
+}
+
+.reverse-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.reverse-button:hover {
+    background-color: black;
+    color: white;
+}
+
+/*=============================================*/
+
+.info-container {
+    margin-top: 8rem;
+    font-size: 14px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+.info-container h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.info-container li {
+    margin-top: 0.8rem;
+}
+
+/*=============================================*/
+
+#price {
+    filter: blur(2px);
+    cursor: default;
+    transition: filter 200ms ease-in-out;
+}
+
+#price:hover {
+    filter: blur(0);
+}

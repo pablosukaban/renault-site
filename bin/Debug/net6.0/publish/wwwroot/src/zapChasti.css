@@ -1,0 +1,43 @@
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-top: 3rem;
+}
+
+.main-subtitle {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 1.3rem;
+}
+
+.info-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 1.3rem;
+}
+
+.info-flex > * {
+    flex: 1 1 0;
+}
+
+.info-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.info-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-bottom: 1px solid black;
+}
